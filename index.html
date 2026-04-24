@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <meta name="description" content="Temukan berbagai macam cemilan lezat mulai dari sosis, nugget, hingga kue kering spesial di NgemilPedia.">
+    <!-- Security Hardening -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https://images.unsplash.com data:; font-src https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta name="referrer" content="no-referrer-when-downgrade">
 </head>
 <body>
     <!-- Navbar -->
@@ -27,7 +32,7 @@
             <p>Dari nugget renyah dengan mozarella lumer hingga kue nastar manis yang menggoda, temukan favoritmu di sini.</p>
             <div class="hero-actions">
                 <a href="#menu" class="btn-primary">Lihat Menu Kami</a>
-                <a href="#kontak" class="btn-secondary">Pesan Sekarang</a>
+                <a href="https://wa.me/6285282839392" class="btn-secondary" target="_blank" rel="noopener noreferrer">Pesan Sekarang</a>
             </div>
             <div class="hero-highlights" aria-label="Keunggulan NgemilPedia">
                 <span>Siap goreng</span>
@@ -163,7 +168,7 @@
         <div class="footer-content">
             <h3>NgemilPedia</h3>
             <p>Pesan sekarang dan rasakan kelezatannya!</p>
-            <a href="https://wa.me/6281234567890" target="_blank" class="btn-whatsapp">Pesan via WhatsApp</a>
+            <a href="https://wa.me/6285282839392" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">Pesan via WhatsApp</a>
         </div>
         <div class="footer-bottom">
             <p>&copy; 2026 NgemilPedia. All rights reserved.</p>
